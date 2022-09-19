@@ -1,4 +1,4 @@
-import Box from "./components/Box"
+import Counter from './components/Counter';
 import './App.css';
 
 function App() {
@@ -6,27 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
        <div className ="container">
-        <Box 
-        text=" im a box 1 " 
-        background="red"
-        color="grey"
-        textClass="boldText"
-        />
+        <Counter/>
+        <Counter/>
+        
 
-        <Box 
-        text=" im a box 2 " 
-        background="blue"
-        color="violet"
-        textClass="smallText"
-        />
-
-
-        <Box 
-        text=" im a box 3 " 
-        background="violet"
-        color="black"
-
-        />
+      
        </div>
       </header>
     </div>
