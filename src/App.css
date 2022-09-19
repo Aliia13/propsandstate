@@ -1,3 +1,25 @@
+.container{
+  max-width: 900px;
+  display: flex;
+}
+
+.container div{
+  border: solid white 1px;
+  width: 200px;
+}
+
+.container div h1{
+  font-size: 20px;
+}
+
+.boldText{
+  font-weight: 900;
+}
+
+.smallText{
+  font-style: italic;
+}
+
 .App {
   text-align: center;
 }
