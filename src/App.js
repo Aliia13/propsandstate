@@ -1,4 +1,4 @@
-import Counter from './components/Counter';
+import TurnLightOn from './components/TurnLightOn';
 import './App.css';
 
 function App() {
@@ -6,12 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
        <div className ="container">
-        <Counter/>
-        <Counter/>
-        
-
-      
-       </div>
+        <TurnLightOn/>
+      </div>
       </header>
     </div>
   );
